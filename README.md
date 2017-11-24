@@ -10,7 +10,7 @@ Add the dependency in build.gradle (App module)
 
 # Usage Example
 
-To process an xml string already loaded from a file or an RSS feed into a JSONObject list, HashMap list or JSONArray.
+To process an xml string already loaded from a file or an RSS feed. The xml string will be processed into a JSONObject list, HashMap list or JSONArray.
 
 A sample xml_string response from an RSS feed. 
 
