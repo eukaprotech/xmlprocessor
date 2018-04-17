@@ -14,6 +14,7 @@ To process an xml string already loaded from a file or an RSS feed. The xml stri
 
 A sample xml_string response from an RSS feed. 
 
+``` js
         <rss version="2.0">
             <channel>
             <title>Music Industry</title>
@@ -48,6 +49,7 @@ A sample xml_string response from an RSS feed.
             </item>
             </channel>
          </rss>;
+ ```
 
 The required records have the tag "item". Each record has elements with the tags "title", "description", "link", "pubDate" and "guid".
 
@@ -55,6 +57,7 @@ Take "item" as the entryTag. Take "title", "description", "link", "pubDate" and 
 
 Method 1.
 
+``` js
           String entryTag = "item";
           ArrayList<String> entryKeys = new ArrayList<>();
           entryKeys.add("title");
@@ -89,9 +92,11 @@ Method 1.
 
               }
           });
+```
                 
 Method 2.
 
+``` js
           String entryTag = "item";
           ArrayList<String> entryKeys = new ArrayList<>();
           entryKeys.add("title");
@@ -128,9 +133,11 @@ Method 2.
 
               }
           });
+ ```
                 
  Method 3.
 
+``` js
           String entryTag = "item";
           ArrayList<String> entryKeys = new ArrayList<>();
           entryKeys.add("title");
@@ -168,3 +175,4 @@ Method 2.
 
               }
           });
+ ```
