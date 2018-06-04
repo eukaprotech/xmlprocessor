@@ -179,3 +179,5 @@ Method 2.
               }
           });
  ```
+ 
+ [ ![Download](https://api.bintray.com/packages/eukaprotech/maven/xmlprocessor/images/download.svg) ](https://bintray.com/eukaprotech/maven/xmlprocessor/_latestVersion)
